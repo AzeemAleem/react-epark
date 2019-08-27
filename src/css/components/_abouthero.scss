@@ -1,0 +1,5 @@
+.about_hero{
+    @include hero('text');
+    background-image: url('../images/aboutUs_hero.png');
+    background-size: cover; 
+}

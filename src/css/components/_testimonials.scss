@@ -1,0 +1,84 @@
+.testimonials{
+    height: 100vh !important;
+    background-color: #2980b6;
+    .testimonials-title{
+        @extend %section-title;
+        .heading{
+            color: $second-color;
+        }
+        p{
+            color: $second-color;
+            margin-bottom: 0px;
+        }
+    }
+
+    .testimonials-group{
+        @extend %section-group;
+        .right-arrow,.left-arrow{
+            width: 10%;
+            display: inline-block;
+            padding: 10px 30px;
+            position: relative;
+            top: -50px;
+            text-align: center;
+            cursor: pointer;
+            i{
+                font-size: 50px;
+                color: $second-color;
+            
+            &:hover{
+                transition: 0.5s;
+                color: $main-color;
+            }
+        }
+        }
+
+        .testimonials-main{
+            display: inline-block;
+            position: relative;
+            width: 68%;
+
+            .testimonials-item{
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                .image-circle{
+                    @include circle("img-circle")
+                }
+
+                .testimonials-text{
+                    padding-top: 50px;
+                    color: $second-color;
+                }
+            }
+        }
+
+
+    }
+
+    .testimonials-circles{
+        width: 100%;
+        .circle-center{
+            margin:  0 auto;
+            width: 75px;
+
+            .circle{
+                border-radius:100%;
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                margin: 0px 2px;
+                border: 3px solid $second-color;
+                background-color: $main-color;
+                cursor: pointer;
+                &:hover{
+                    background-color: $second-color;
+                    color: $main-color;
+                    transition: 0.5s;
+                    border-color:$main-color; 
+                }
+            }
+        }
+    }
+
+}

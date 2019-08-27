@@ -1,0 +1,25 @@
+@mixin hero($name:btn){
+
+        background-color: #2980b9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .hero-title{
+            color: $second-color;
+            @include headings(xl);
+        }
+        @if($name == 'text'){
+        p{
+            text-align: center;
+            width: 500px;
+            color: $second-color;
+        }
+    }@else{
+        .btn-hero{
+            @include btn (lg);
+        }
+    }
+
+}

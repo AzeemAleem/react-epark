@@ -1,0 +1,20 @@
+.about-story{
+    padding: 50px 0px;
+    .story-title,.story-text{
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+    }
+    .story-title{
+        text-align: center;
+        .title{
+            @include headings(xl);
+            font-weight: normal;
+            color: $main-color;
+        }
+    }
+    .story-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+}

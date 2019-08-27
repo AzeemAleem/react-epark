@@ -1,0 +1,42 @@
+
+.c1 h3{
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    width: 40ch;
+    animation: type 5s steps(38);
+    animation-iteration-count:infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    
+}
+@keyframes type{
+    from{
+        width: 0ch;
+    }
+    to{
+        width: 34ch;
+    }
+}
+
+.example_a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #06dd34;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+
+    .example_a:hover {
+        background: #3d4bd1;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        }

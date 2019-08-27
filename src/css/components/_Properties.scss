@@ -1,0 +1,99 @@
+.mainbox{
+    
+    height: 500px;
+    
+    background-image: url("https://images.unsplash.com/photo-1557762820-f16cbda96afa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-1{
+    border:2px solid greenyellow;
+    color: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-style: dotted;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+.main-1 img,.main-2 img,.main-3 img{
+    height:50px;
+    width:50px;
+    margin-top:80px;
+    margin-left:20px;
+    
+
+}
+.main-1 h3, .main-2 h3, .main-3 h3{
+    position: absolute;
+    top: 10px;
+    color: white;
+    left: 90px;
+    font-size: 30px;
+    right: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-1 p, .main-2 p, .main-3 p{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    font-size: 15px;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-1:hover, .main-2:hover, .main-3:hover{
+    background-color:#13c33e;
+    color: white;
+
+}
+.main-2{
+    border:2px solid greenyellow;
+    color: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top:-100px;
+    left: 460px;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+
+.main-3{
+    border:2px solid greenyellow;
+    color: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: -300px;
+    left: 820px;
+    border-style: dotted;
+    border-radius: 10px;
+}
+.main-1 i{
+    font-size: 60px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.main-2 i{
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.main-3 i{
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
